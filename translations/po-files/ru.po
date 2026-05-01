@@ -656,6 +656,10 @@ msgid " The following apps have been updated:\\n\\n"
 msgstr ""
 " Следующие приложения были обновлены:\\n\\n"
 
+#: APP-MANAGER:1695
+msgid " No apps to update here!"
+msgstr " Нет приложений для обновления!"
+
 #: APP-MANAGER:1737
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed second elapsed! \\n"
 msgstr ""
@@ -2305,3 +2309,86 @@ msgstr " ◆ URL WEBAPP: "
 msgid "\\n No valid argument was chosen: process aborted! \\n"
 msgstr ""
 "\\n Подходящий аргумент не выбран: действие отменено! \\n"
+
+#: APP-MANAGER:334
+msgid "ERROR: No sudo or doas found"
+msgstr "ОШИБКА: sudo или doas не найдены"
+
+#: APP-MANAGER:1179
+msgid " ✔ Removed orphaned launchers produced with the \"--launcher\" option"
+msgstr " ✔ Удалены осиротевшие ярлыки, созданные опцией \"--launcher\""
+
+#: modules/install.am:35
+msgid " 💀 ERROR: \"--convert\" requires a configuration file in ~/.config/appman"
+msgstr " 💀 ОШИБКА: для \"--convert\" нужен файл конфигурации в ~/.config/appman"
+
+#: modules/sandboxes.am:67
+msgid " ERROR: You need aisap or sas for this script to work"
+msgstr " ОШИБКА: для работы этого скрипта нужен aisap или sas"
+
+#: modules/sandboxes.am:68
+msgid " NOTE: Only sas can sandbox DWARFS AppImages"
+msgstr " ПРИМЕЧАНИЕ: только sas умеет помещать DWARFS AppImage в песочницу"
+
+#: modules/sandboxes.am:229
+msgid "  Type the path to the directory"
+msgstr "  Укажите путь к папке"
+
+#: modules/sandboxes.am:240
+msgid " No path given, aborting"
+msgstr " Путь не указан, отмена"
+
+#: modules/sandboxes.am:248
+msgid " User directories access configured successfully!"
+msgstr " Доступ к пользовательским папкам настроен!"
+
+#: modules/database.am:587
+msgid " AppImages with 🔒 are sandboxed with aisap, versions with 🔒 are locked"
+msgstr " AppImage с 🔒 запущены через aisap, версии с 🔒 заблокированы"
+
+#: modules/database.am:589
+msgid " AppImages with 🔒 are sandboxed with aisap"
+msgstr " AppImage с 🔒 запущены через aisap"
+
+#: modules/database.am:591
+msgid " AppImages with 🔒 are sandboxed with sas, versions with 🔒 are locked"
+msgstr " AppImage с 🔒 запущены через sas, версии с 🔒 заблокированы"
+
+#: modules/database.am:593
+msgid " AppImages with 🔒 are sandboxed with sas"
+msgstr " AppImage с 🔒 запущены через sas"
+
+#: modules/database.am:595
+msgid " Versions with 🔒 are locked"
+msgstr " Версии с 🔒 заблокированы"
+
+#: modules/template.am:292
+msgid " Latest release (y) or a generic one (N or leave blank)?"
+msgstr " Последний релиз (y) или общий вариант (N или пусто)?"
+
+#: modules/template.am:308
+msgid " Do you wish to check the link (Y,n)?"
+msgstr " Проверить ссылку (Y,n)?"
+
+#: modules/template.am:321
+msgid " If correct, press \"ENTER\", 1 to add keywords and 2 to remove keywords: "
+msgstr " Если всё верно, нажмите \"ENTER\"; 1 — добавить ключевые слова, 2 — удалить: "
+
+#: modules/template.am:324
+msgid " URL must contain (\"x64\", \"x86_64\"... or leave blank): "
+msgstr " URL должен содержать (\"x64\", \"x86_64\"... или оставьте пустым): "
+
+#: modules/template.am:327
+msgid " Do you wish to check the link for the last time (Y,n)?"
+msgstr " Проверить ссылку ещё раз (Y,n)?"
+
+#: modules/template.am:341
+msgid " URL must NOT contain (\"txt\", \"ARM\"... or leave blank): "
+msgstr " URL НЕ должен содержать (\"txt\", \"ARM\"... или оставьте пустым): "
+
+#: modules/template.am:555
+msgid " ◆ NAME OF THE APP (for the \"Name\" entry of the .desktop file): "
+msgstr " ◆ ИМЯ ПРИЛОЖЕНИЯ (для поля \"Name\" в .desktop-файле): "
+#: modules/template.am:111
+msgid " USE A ONE-LINE COMMAND TO CHECK THE URL TO THE PROGRAM OR THE VERSION\n\n if the URL is fixed, simply add the \"echo\" command at the beginning\n\n :"
+msgstr " ИСПОЛЬЗУЙТЕ ОДНОСТРОЧНУЮ КОМАНДУ ДЛЯ ПРОВЕРКИ URL ПРОГРАММЫ ИЛИ ВЕРСИИ\n\n если URL фиксированный, просто добавьте команду \"echo\" в начало\n\n :"

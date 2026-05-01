@@ -657,6 +657,10 @@ msgstr " Nada para fazer aqui! \\n"
 msgid " The following apps have been updated:\\n\\n"
 msgstr " Os seguintes apps foram atualizados:\\n\\n"
 
+#: APP-MANAGER:1695
+msgid " No apps to update here!"
+msgstr " Nenhum app para atualizar!"
+
 #: APP-MANAGER:1737
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed second elapsed! \\n"
 msgstr ""
@@ -2299,3 +2303,86 @@ msgstr "\\n Nenhum argumento válido foi escolhido: processo abortado! \\n"
 
 #~ msgid "✔ $APPMAN_APPSPATH/$arg can be managed again"
 #~ msgstr "✔ $APPMAN_APPSPATH/$arg pode ser gerenciado novamente"
+
+#: APP-MANAGER:334
+msgid "ERROR: No sudo or doas found"
+msgstr "ERRO: sudo ou doas não encontrado"
+
+#: APP-MANAGER:1179
+msgid " ✔ Removed orphaned launchers produced with the \"--launcher\" option"
+msgstr " ✔ Lançadores órfãos criados com a opção \"--launcher\" foram removidos"
+
+#: modules/install.am:35
+msgid " 💀 ERROR: \"--convert\" requires a configuration file in ~/.config/appman"
+msgstr " 💀 ERRO: \"--convert\" requer um arquivo de configuração em ~/.config/appman"
+
+#: modules/sandboxes.am:67
+msgid " ERROR: You need aisap or sas for this script to work"
+msgstr " ERRO: você precisa do aisap ou sas para este script funcionar"
+
+#: modules/sandboxes.am:68
+msgid " NOTE: Only sas can sandbox DWARFS AppImages"
+msgstr " NOTA: apenas o sas pode colocar AppImages DWARFS em sandbox"
+
+#: modules/sandboxes.am:229
+msgid "  Type the path to the directory"
+msgstr "  Digite o caminho para o diretório"
+
+#: modules/sandboxes.am:240
+msgid " No path given, aborting"
+msgstr " Nenhum caminho informado, abortando"
+
+#: modules/sandboxes.am:248
+msgid " User directories access configured successfully!"
+msgstr " Acesso aos diretórios do usuário configurado com sucesso!"
+
+#: modules/database.am:587
+msgid " AppImages with 🔒 are sandboxed with aisap, versions with 🔒 are locked"
+msgstr " AppImages com 🔒 estão em sandbox com aisap, versões com 🔒 estão bloqueadas"
+
+#: modules/database.am:589
+msgid " AppImages with 🔒 are sandboxed with aisap"
+msgstr " AppImages com 🔒 estão em sandbox com aisap"
+
+#: modules/database.am:591
+msgid " AppImages with 🔒 are sandboxed with sas, versions with 🔒 are locked"
+msgstr " AppImages com 🔒 estão em sandbox com sas, versões com 🔒 estão bloqueadas"
+
+#: modules/database.am:593
+msgid " AppImages with 🔒 are sandboxed with sas"
+msgstr " AppImages com 🔒 estão em sandbox com sas"
+
+#: modules/database.am:595
+msgid " Versions with 🔒 are locked"
+msgstr " Versões com 🔒 estão bloqueadas"
+
+#: modules/template.am:292
+msgid " Latest release (y) or a generic one (N or leave blank)?"
+msgstr " Última versão (y) ou genérica (N ou deixe em branco)?"
+
+#: modules/template.am:308
+msgid " Do you wish to check the link (Y,n)?"
+msgstr " Deseja verificar o link (Y,n)?"
+
+#: modules/template.am:321
+msgid " If correct, press \"ENTER\", 1 to add keywords and 2 to remove keywords: "
+msgstr " Se estiver correto, pressione \"ENTER\", 1 para adicionar palavras-chave e 2 para remover: "
+
+#: modules/template.am:324
+msgid " URL must contain (\"x64\", \"x86_64\"... or leave blank): "
+msgstr " A URL deve conter (\"x64\", \"x86_64\"... ou deixe em branco): "
+
+#: modules/template.am:327
+msgid " Do you wish to check the link for the last time (Y,n)?"
+msgstr " Deseja verificar o link pela última vez (Y,n)?"
+
+#: modules/template.am:341
+msgid " URL must NOT contain (\"txt\", \"ARM\"... or leave blank): "
+msgstr " A URL NÃO deve conter (\"txt\", \"ARM\"... ou deixe em branco): "
+
+#: modules/template.am:555
+msgid " ◆ NAME OF THE APP (for the \"Name\" entry of the .desktop file): "
+msgstr " ◆ NOME DO APP (para a entrada \"Name\" do arquivo .desktop): "
+#: modules/template.am:111
+msgid " USE A ONE-LINE COMMAND TO CHECK THE URL TO THE PROGRAM OR THE VERSION\n\n if the URL is fixed, simply add the \"echo\" command at the beginning\n\n :"
+msgstr " USE UM COMANDO DE UMA LINHA PARA VERIFICAR A URL DO PROGRAMA OU A VERSÃO\n\n se a URL for fixa, basta adicionar o comando \"echo\" no início\n\n :"

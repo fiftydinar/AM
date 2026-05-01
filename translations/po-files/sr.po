@@ -645,6 +645,10 @@ msgstr " Ovde nema ništa da se radi! \\n"
 msgid " The following apps have been updated:\\n\\n"
 msgstr " Sledeće aplikacije su ažurirane:\\n\\n"
 
+#: APP-MANAGER:1695
+msgid " No apps to update here!"
+msgstr " Nema aplikacija za ažuriranje!"
+
 #: APP-MANAGER:1737
 msgid " %b✔\\033[0m $APPNAME is updated, $timelapsed second elapsed! \\n"
 msgstr " %b✔\\033[0m $APPNAME je ažuriran, $timelapsed sekund je prošao! \\n"
@@ -2285,3 +2289,86 @@ msgstr "\\n Nijedan važeći argument nije odabran: proces obustavljen! \\n"
 
 #~ msgid "%b%b"
 #~ msgstr "%b%b"
+
+#: APP-MANAGER:334
+msgid "ERROR: No sudo or doas found"
+msgstr "GREŠKA: sudo ili doas nisu pronađeni"
+
+#: APP-MANAGER:1179
+msgid " ✔ Removed orphaned launchers produced with the \"--launcher\" option"
+msgstr " ✔ Uklonjeni su napušteni pokretači napravljeni opcijom \"--launcher\""
+
+#: modules/install.am:35
+msgid " 💀 ERROR: \"--convert\" requires a configuration file in ~/.config/appman"
+msgstr " 💀 GREŠKA: \"--convert\" zahteva konfiguracioni fajl u ~/.config/appman"
+
+#: modules/sandboxes.am:67
+msgid " ERROR: You need aisap or sas for this script to work"
+msgstr " GREŠKA: potreban je aisap ili sas da bi ova skripta radila"
+
+#: modules/sandboxes.am:68
+msgid " NOTE: Only sas can sandbox DWARFS AppImages"
+msgstr " NAPOMENA: samo sas može da sandboxuje DWARFS AppImage-ove"
+
+#: modules/sandboxes.am:229
+msgid "  Type the path to the directory"
+msgstr "  Unesi putanju do direktorijuma"
+
+#: modules/sandboxes.am:240
+msgid " No path given, aborting"
+msgstr " Putanja nije data, prekidam"
+
+#: modules/sandboxes.am:248
+msgid " User directories access configured successfully!"
+msgstr " Pristup korisničkim direktorijumima je uspešno podešen!"
+
+#: modules/database.am:587
+msgid " AppImages with 🔒 are sandboxed with aisap, versions with 🔒 are locked"
+msgstr " AppImage-ovi sa 🔒 su sandboxovani pomoću aisap, verzije sa 🔒 su zaključane"
+
+#: modules/database.am:589
+msgid " AppImages with 🔒 are sandboxed with aisap"
+msgstr " AppImage-ovi sa 🔒 su sandboxovani pomoću aisap"
+
+#: modules/database.am:591
+msgid " AppImages with 🔒 are sandboxed with sas, versions with 🔒 are locked"
+msgstr " AppImage-ovi sa 🔒 su sandboxovani pomoću sas, verzije sa 🔒 su zaključane"
+
+#: modules/database.am:593
+msgid " AppImages with 🔒 are sandboxed with sas"
+msgstr " AppImage-ovi sa 🔒 su sandboxovani pomoću sas"
+
+#: modules/database.am:595
+msgid " Versions with 🔒 are locked"
+msgstr " Verzije sa 🔒 su zaključane"
+
+#: modules/template.am:292
+msgid " Latest release (y) or a generic one (N or leave blank)?"
+msgstr " Najnovije izdanje (y) ili generičko (N ili prazno)?"
+
+#: modules/template.am:308
+msgid " Do you wish to check the link (Y,n)?"
+msgstr " Želiš li da proveriš link (Y,n)?"
+
+#: modules/template.am:321
+msgid " If correct, press \"ENTER\", 1 to add keywords and 2 to remove keywords: "
+msgstr " Ako je ispravno, pritisni \"ENTER\", 1 za dodavanje ključnih reči i 2 za uklanjanje: "
+
+#: modules/template.am:324
+msgid " URL must contain (\"x64\", \"x86_64\"... or leave blank): "
+msgstr " URL mora da sadrži (\"x64\", \"x86_64\"... ili ostavi prazno): "
+
+#: modules/template.am:327
+msgid " Do you wish to check the link for the last time (Y,n)?"
+msgstr " Želiš li poslednji put da proveriš link (Y,n)?"
+
+#: modules/template.am:341
+msgid " URL must NOT contain (\"txt\", \"ARM\"... or leave blank): "
+msgstr " URL NE sme da sadrži (\"txt\", \"ARM\"... ili ostavi prazno): "
+
+#: modules/template.am:555
+msgid " ◆ NAME OF THE APP (for the \"Name\" entry of the .desktop file): "
+msgstr " ◆ IME APLIKACIJE (za \"Name\" unos u .desktop fajlu): "
+#: modules/template.am:111
+msgid " USE A ONE-LINE COMMAND TO CHECK THE URL TO THE PROGRAM OR THE VERSION\n\n if the URL is fixed, simply add the \"echo\" command at the beginning\n\n :"
+msgstr " KORISTI JEDNOLINIJSKU KOMANDU ZA PROVERU URL-A PROGRAMA ILI VERZIJE\n\n ako je URL fiksan, jednostavno dodaj komandu \"echo\" na početak\n\n :"

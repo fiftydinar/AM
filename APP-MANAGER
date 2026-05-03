@@ -1724,7 +1724,7 @@ _update_determine_gh_apps_number() {
 	[ -z "$GH_APPS" ] && GH_APPS_NUMBER="" || GH_APPS_NUMBER=$(echo "$GH_APPS" | wc -l | sed 's/ //g')
 	if [ -n "$GH_APPS_NUMBER" ]; then
 		GH_API_REMAINING=$(curl -Ls "https://api.github.com/rate_limit" | tr '{,' '\n' | grep -i remaining | tail -1 | grep -Eo "[0-9]*")
-		GH_API_ALLOWED=$(($GH_API_REMAINING-$GH_APPS_NUMBER))
+		GH_API_ALLOWED=$((GH_API_REMAINING - GH_APPS_NUMBER))
 	fi
 }
 

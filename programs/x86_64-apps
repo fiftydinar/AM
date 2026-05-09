@@ -1,4 +1,3 @@
-◆ open-pencil : AI-native design editor. Open-source Figma alternative.
 ◆ 0ad : FOSS historical Real Time Strategy, RTS game of ancient warfare.
 ◆ 0ad-prerelease : FOSS historical Real Time Strategy, RTS game of ancient warfare (Pre-release).
 ◆ 12to11 : Unofficial, tool for running Wayland applications on an X server.
@@ -1898,6 +1897,7 @@
 ◆ opal : Plays relaxing music in the background.
 ◆ open-ai-translator : Browser extension for translation based on ChatGPT API.
 ◆ open-markup-editor : Pluggable markup editor.
+◆ open-pencil : AI-native design editor. Open-source Figma alternative.
 ◆ open-typer : A free and open source typing tutor program.
 ◆ open-video-downloader : A cross-platform GUI for youtube-dl made in Electron.
 ◆ open-webui : Your AI, right on your desktop. Open WebUI as a native app. Run models locally or connect to any server. No Docker, no terminal, no setup. Download, launch, chat.

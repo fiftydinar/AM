@@ -46,7 +46,7 @@ if [ "$version" != "$version0" ]; then
 	[ -e ./*zip ] && unzip -qq ./*zip 1>/dev/null && rm -f ./*zip
 	cd ..
 	if [ -d ./tmp/* 2>/dev/null ]; then mv --backup=t ./tmp/*/* ./; else mv --backup=t ./tmp/* ./"$APP" 2>/dev/null || mv --backup=t ./tmp/* ./; fi
-	chmod a+x ./"$APP" || exit 1
+	chmod a+x ./ghidraRun || exit 1
 	echo "$version" > ./version
 	rm -R -f ./tmp ./*~
 	notify-send "$APP is updated!"

@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: am 9.7.1-9\n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2026-05-11\n"
-"PO-Revision-Date: 2026-03-14 20:53+0100\n"
+"PO-Revision-Date: 2026-05-11 03:45+0200\n"
 "Last-Translator: Fifty Dinar <srbaizoki4@tuta.io>\n"
 "Language-Team: Serbian <https://github.com/ivan-hc/AM/translations/po-files/"
 "sr.po>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #: APP-MANAGER:155
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
@@ -187,9 +187,8 @@ msgid " Do you wish to continue? (N/y): "
 msgstr " Želiš li da nastaviš? (N/y): "
 
 #: APP-MANAGER:583 modules/install.am:320 modules/install.am:332
-#, fuzzy
 msgid " - %b, downloaded from https://github.com/ivan-hc/am-utils\\n"
-msgstr "\\n Vidi https://github.com/ivan-hc/AM/commits/%b\\n\\n"
+msgstr ""
 
 #: APP-MANAGER:594
 msgid "Missing command(s): %b%b\\033[0m\\n"
@@ -243,11 +242,11 @@ msgstr ""
 #: APP-MANAGER:687
 msgid ""
 "Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\\" (use "
-"%b--allowerasing\\033[0m if you have to)\\n\\nSee https://bugzilla.redhat."
-"com/show_bug.cgi?id=2358792\\n\\n"
+"%b--allowerasing\\033[0m if you have to)\\n\\nSee https://"
+"bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
 msgstr ""
-"Molim instaliraj \\\"%bwget1\\033[0m\\\" i \\\"%bwget1-wget\\033[0m\\"
-"\" (koristi %b--allowerasing\\033[0m ako baš moraš)\\n\\nPogledaj https://"
+"Molim instaliraj \\\"%bwget1\\033[0m\\\" i \\\"%bwget1-wget\\033[0m\\\" "
+"(koristi %b--allowerasing\\033[0m ako baš moraš)\\n\\nPogledaj https://"
 "bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
 
 #: APP-MANAGER:720
@@ -358,8 +357,8 @@ msgid ""
 "cause problems.\\nSee https://github.com/ivan-hc/AM/issues/1843\\n"
 msgstr ""
 "Zsh dovršavanje (completion) zahteva izmenu glavnog konfiguracijskog fajla, "
-"ali to može da izazove probleme.\\nVidi https://github.com/ivan-hc/AM/"
-"issues/1843\\n"
+"ali to može da izazove probleme.\\nVidi https://github.com/ivan-hc/AM/issues/"
+"1843\\n"
 
 #: APP-MANAGER:953
 msgid "Want to proceed anyway? (y,N)"
@@ -494,10 +493,10 @@ msgid "   related AppImage is located in an unmounted path of $unmounted_point"
 msgstr "   ovaj AppImage je smešten u nemontiranoj putanji od $unmounted_point"
 
 #: APP-MANAGER:1337
-#, fuzzy
 msgid ""
 " ✔ Removed orphaned launchers produced with the \\\"--launcher\\\" option"
-msgstr " ✔ Uklonjeni su napušteni pokretači napravljeni opcijom \"--launcher\""
+msgstr ""
+" ✔ Uklonjeni su napušteni pokretači napravljeni opcijom \\\"--launcher\\\""
 
 #: APP-MANAGER:1350
 msgid " ✔ Removed obsolete module named \\\"$(basename -- \"$m\")\\\""
@@ -1218,8 +1217,8 @@ msgstr ""
 
 #: APP-MANAGER:2273
 msgid ""
-"Description: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\"
-"\" (see \\\"--user\\\")."
+"Description: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\\" "
+"(see \\\"--user\\\")."
 msgstr ""
 "Opis: Vrati \\\"AM\\\" nazad u sistemski \\\"AM režim\\\" iz lokalnog \\"
 "\"AppMan režima\\\" (vidi \\\"--user\\\")."
@@ -1547,12 +1546,11 @@ msgid " Converting %s to an AppMan-compatible script.\\r"
 msgstr " Konvertujem %s u AppMan-podržanu skriptu.\\r"
 
 #: modules/install.am:35
-#, fuzzy
 msgid ""
 " 💀 ERROR: \\\"--convert\\\" requires a configuration file in ~/.config/"
 "appman"
 msgstr ""
-" 💀 GREŠKA: \"--convert\" zahteva konfiguracioni fajl u ~/.config/appman"
+" 💀 GREŠKA: \\\"--convert\\\" zahteva konfiguracioni fajl u ~/.config/appman"
 
 #: modules/install.am:44
 msgid "✖ \\\"$SCRIPTDIR/$arg\\\" already exists!"
@@ -2067,8 +2065,8 @@ msgstr " Da li želiš da obrišeš stari libfuse2 AppImage? (Y/n) "
 
 #: modules/management.am:496 modules/management.am:514
 msgid ""
-" \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI -"
-"f\\\" for more."
+" \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI "
+"-f\\\" for more."
 msgstr ""
 " \\\"${RED}$arg\\033[0m\\\" nije važeći \\\"APPNAME\\\", vidi \\\"$AMCLI -f\\"
 "\" za više detalja."
@@ -2094,8 +2092,8 @@ msgstr ""
 msgid ""
 " ◆ Do you wish to allow custom icon theming for the selected apps? (y,N) "
 msgstr ""
-" ◆ Da li želiš da dozvoliš ručno temiranje ikona za odabrane aplikacije? (y,"
-"N) "
+" ◆ Da li želiš da dozvoliš ručno temiranje ikona za odabrane aplikacije? "
+"(y,N) "
 
 #: modules/management.am:586
 msgid " ✔ Success!"
@@ -2203,7 +2201,6 @@ msgid " ◆ ADD A BRIEF DESCRIPTION FOR THIS APPLICATION $(echo -e '\\n : ')"
 msgstr " ◆ DODAJ OSNOVNI OPIS ZA OVU APLIKACIJU $(echo -e '\\n : ')"
 
 #: modules/template.am:111
-#, fuzzy
 msgid ""
 " USE A ONE-LINE COMMAND TO CHECK THE URL TO THE PROGRAM OR THE VERSION\\n\\n "
 "if the URL is fixed, simply add the \\\"echo\\\" command at the "
@@ -2211,7 +2208,7 @@ msgid ""
 msgstr ""
 " KORISTI JEDNOLINIJSKU KOMANDU ZA PROVERU URL-A PROGRAMA ILI VERZIJE\n"
 "\n"
-" ako je URL fiksan, jednostavno dodaj komandu \"echo\" na početak\n"
+" ako je URL fiksan, jednostavno dodaj komandu \\\"echo\\\" na početak\n"
 "\n"
 " :"
 
@@ -2227,13 +2224,13 @@ msgstr ""
 msgid ""
 " LIST OF CATEGORIES:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) "
 "Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) "
-"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility "
-"(default)\\n "
+"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility (default)"
+"\\n "
 msgstr ""
 " LISTA KATEGORIJA:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) "
 "Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) "
-"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility "
-"(default)\\n "
+"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility (default)"
+"\\n "
 
 #: modules/template.am:174
 msgid " CHOOSE A CATEGORY : "
@@ -2257,27 +2254,26 @@ msgstr ""
 "ažuriranje da ukažu.\\n"
 
 #: modules/template.am:302
-#, fuzzy
 msgid ""
 " If correct, press \\\"ENTER\\\", 1 to add keywords and 2 to remove "
 "keywords: "
 msgstr ""
-" Ako je ispravno, pritisni \"ENTER\", 1 za dodavanje ključnih reči i 2 za "
-"uklanjanje: "
+" Ako je ispravno, pritisni \\\"ENTER\\\", 1 za dodavanje ključnih reči i 2 "
+"za uklanjanje: "
 
 #: modules/template.am:305
-#, fuzzy
 msgid " URL must contain (\\\"x64\\\", \\\"x86_64\\\"... or leave blank): "
-msgstr " URL mora da sadrži (\"x64\", \"x86_64\"... ili ostavi prazno): "
+msgstr ""
+" URL mora da sadrži (\\\"x64\\\", \\\"x86_64\\\"... ili ostavi prazno): "
 
 #: modules/template.am:308 modules/template.am:325
 msgid " Do you wish to check the link for the last time (Y,n)?"
 msgstr " Želiš li poslednji put da proveriš link (Y,n)?"
 
 #: modules/template.am:322
-#, fuzzy
 msgid " URL must NOT contain (\\\"txt\\\", \\\"ARM\\\"... or leave blank): "
-msgstr " URL NE sme da sadrži (\"txt\", \"ARM\"... ili ostavi prazno): "
+msgstr ""
+" URL NE sme da sadrži (\\\"txt\\\", \\\"ARM\\\"... ili ostavi prazno): "
 
 #: modules/template.am:347
 msgid ""
@@ -2306,8 +2302,8 @@ msgstr ""
 
 #: modules/template.am:452
 msgid ""
-" PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' '[:"
-"upper:]')\\\":"
+" PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' "
+"'[:upper:]')\\\":"
 msgstr ""
 " MOLIM, ODABERI ŠABLON ZA \\\"$(echo \"$arg\" | tr '[:lower:]' '[:upper:]')\\"
 "\":"
@@ -2337,8 +2333,8 @@ msgstr " ZA KOJU VRSTU PROGRAMA ŽELIŠ DA NAPIŠEŠ SKRIPTU? : "
 
 #: modules/template.am:472 modules/template.am:508
 msgid ""
-" ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE: "
-"$(echo -e '\n"
+" ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE: $"
+"(echo -e '\n"
 "\n"
 " - if from github.com, use \"https://github.com/USER/PROJECT\"\n"
 "\n"
@@ -2368,9 +2364,8 @@ msgid " ◆ COPY/PASTE THE URL OF THE ICON HERE $(echo -e '\\n URL: ')"
 msgstr " ◆ KOPIRAJ/NALEPI URL IKONE OVDE $(echo -e '\\n URL: ')"
 
 #: modules/template.am:536
-#, fuzzy
 msgid " ◆ NAME OF THE APP (for the \\\"Name\\\" entry of the .desktop file): "
-msgstr " ◆ IME APLIKACIJE (za \"Name\" unos u .desktop fajlu): "
+msgstr " ◆ IME APLIKACIJE (za \\\"Name\\\" unos u .desktop fajlu): "
 
 #: modules/template.am:561
 msgid " ◆ NAME OF THE APP: "
@@ -2404,8 +2399,8 @@ msgstr "\\n Nijedan važeći argument nije odabran: proces obustavljen! \\n"
 #~ " ◆ ADD A LINEAR DOWNLOAD URL FOR THE SCRIPT OR LEAVE BLANK $(echo -e "
 #~ "'\\n : ')"
 #~ msgstr ""
-#~ " ◆ DODAJ LINEARNI URL ZA PREUZIMANJE ZA SKRIPTU ILI OSTAVI PRAZNO $(echo -"
-#~ "e '\\n : ')"
+#~ " ◆ DODAJ LINEARNI URL ZA PREUZIMANJE ZA SKRIPTU ILI OSTAVI PRAZNO $(echo "
+#~ "-e '\\n : ')"
 
 #~ msgid "✔ $APPMAN_APPSPATH/$arg can be managed again"
 #~ msgstr "✔ $APPMAN_APPSPATH/$arg opet može da se upravlja"

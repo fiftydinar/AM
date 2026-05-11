@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: am 9.7.1-9\n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2026-05-11\n"
-"PO-Revision-Date: 2026-02-14 18:51+0100\n"
+"PO-Revision-Date: 2026-05-11 03:41+0200\n"
 "Last-Translator: Apertium APy <noreply-mt-apertium-apy@weblate.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/am/am/es/>\n"
 "Language: es\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #: APP-MANAGER:155
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
@@ -87,8 +87,8 @@ msgstr ">>> ¡Gracias por elegir AppMan!"
 msgid ""
 " Write the path or just press enter to use default:$(printf \"\\n\\n \")"
 msgstr ""
-" Escriba la ruta o simplemente presione Intro para usar la predeterminada:"
-"$(printf \"\\n\\n \")"
+" Escriba la ruta o simplemente presione Intro para usar la predeterminada:$"
+"(printf \"\\n\\n \")"
 
 #: APP-MANAGER:276
 msgid " 💀 ERROR, you can't install applications in \\\"$BINDIR\\\""
@@ -179,9 +179,8 @@ msgid " Do you wish to continue? (N/y): "
 msgstr " ¿Desea continuar? (N/s): "
 
 #: APP-MANAGER:583 modules/install.am:320 modules/install.am:332
-#, fuzzy
 msgid " - %b, downloaded from https://github.com/ivan-hc/am-utils\\n"
-msgstr "\\n Ver https://github.com/ivan-hc/AM/commits/%b\\n\\n"
+msgstr ""
 
 #: APP-MANAGER:594
 msgid "Missing command(s): %b%b\\033[0m\\n"
@@ -236,11 +235,11 @@ msgstr ""
 #: APP-MANAGER:687
 msgid ""
 "Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\\" (use "
-"%b--allowerasing\\033[0m if you have to)\\n\\nSee https://bugzilla.redhat."
-"com/show_bug.cgi?id=2358792\\n\\n"
+"%b--allowerasing\\033[0m if you have to)\\n\\nSee https://"
+"bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
 msgstr ""
-"Por favor, instale \\\"%bwget1\\033[0m\\\" y \\\"%bwget1-wget\\033[0m\\"
-"\" (use %b--allowerasing\\033[0m si es necesario)\\n\\nConsulte https://"
+"Por favor, instale \\\"%bwget1\\033[0m\\\" y \\\"%bwget1-wget\\033[0m\\\" "
+"(use %b--allowerasing\\033[0m si es necesario)\\n\\nConsulte https://"
 "bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
 
 #: APP-MANAGER:720
@@ -486,11 +485,10 @@ msgstr ""
 "   related AppImage is located in an unmounted path of $unmounted_point"
 
 #: APP-MANAGER:1337
-#, fuzzy
 msgid ""
 " ✔ Removed orphaned launchers produced with the \\\"--launcher\\\" option"
 msgstr ""
-" ✔ Eliminados lanzadores huérfanos creados con la opción \"--launcher\""
+" ✔ Eliminados lanzadores huérfanos creados con la opción \\\"--launcher\\\""
 
 #: APP-MANAGER:1350
 msgid " ✔ Removed obsolete module named \\\"$(basename -- \"$m\")\\\""
@@ -1087,8 +1085,8 @@ msgstr ""
 
 #: APP-MANAGER:2273
 msgid ""
-"Description: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\"
-"\" (see \\\"--user\\\")."
+"Description: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\\" "
+"(see \\\"--user\\\")."
 msgstr ""
 
 #: APP-MANAGER:2274
@@ -1383,13 +1381,12 @@ msgid " Converting %s to an AppMan-compatible script.\\r"
 msgstr " Convirtiendo %s a un script compatible con AppMan.\\r"
 
 #: modules/install.am:35
-#, fuzzy
 msgid ""
 " 💀 ERROR: \\\"--convert\\\" requires a configuration file in ~/.config/"
 "appman"
 msgstr ""
-" 💀 ERROR: \"--convert\" requiere un archivo de configuración en ~/.config/"
-"appman"
+" 💀 ERROR: \\\"--convert\\\" requiere un archivo de configuración en "
+"~/.config/appman"
 
 #: modules/install.am:44
 msgid "✖ \\\"$SCRIPTDIR/$arg\\\" already exists!"
@@ -1586,8 +1583,8 @@ msgid ""
 "command.\\n\\n\" \"${Gold}\")"
 msgstr ""
 "💀 ERROR: \\\"$arg\\\" NO existe en la base de datos \\\"AM\\\", $(printf "
-"\"por favor, compruebe la lista, ejecute el comando \\\"%b$AMCLIPATH_ORIGIN -"
-"l\\033[0m\\\".\\n\\n\" \"${Gold}\")"
+"\"por favor, compruebe la lista, ejecute el comando \\\"%b$AMCLIPATH_ORIGIN "
+"-l\\033[0m\\\".\\n\\n\" \"${Gold}\")"
 
 #: modules/install.am:698
 msgid "\\n ERROR: \\\"%b\\\" is NOT an AppImage\\n"
@@ -1898,8 +1895,8 @@ msgstr " ¿Desea eliminar la antigua AppImage libfuse2? (S/n) "
 
 #: modules/management.am:496 modules/management.am:514
 msgid ""
-" \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI -"
-"f\\\" for more."
+" \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI "
+"-f\\\" for more."
 msgstr ""
 " \\\"${RED}$arg\\033[0m\\\" no es un \\\"NOMBREAPP\\\" válido, consulte \\"
 "\"$AMCLI -f\\\" para más información."
@@ -2035,7 +2032,6 @@ msgstr ""
 " ◆ AÑADA UNA BREVE DESCRIPCIÓN PARA ESTA APLICACIÓN $(echo -e '\\n : ')"
 
 #: modules/template.am:111
-#, fuzzy
 msgid ""
 " USE A ONE-LINE COMMAND TO CHECK THE URL TO THE PROGRAM OR THE VERSION\\n\\n "
 "if the URL is fixed, simply add the \\\"echo\\\" command at the "
@@ -2044,7 +2040,7 @@ msgstr ""
 " USE UN COMANDO DE UNA LÍNEA PARA COMPROBAR LA URL DEL PROGRAMA O LA "
 "VERSIÓN\n"
 "\n"
-" si la URL es fija, simplemente añada el comando \"echo\" al principio\n"
+" si la URL es fija, simplemente añada el comando \\\"echo\\\" al principio\n"
 "\n"
 " :"
 
@@ -2060,8 +2056,8 @@ msgstr ""
 msgid ""
 " LIST OF CATEGORIES:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) "
 "Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) "
-"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility "
-"(default)\\n "
+"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility (default)"
+"\\n "
 msgstr ""
 " LISTA DE CATEGORÍAS:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) "
 "Desarrollo\\n 4) Educación\\n 5) Juego\\n 6) Gráficos\\n 7) Red\\n 8) "
@@ -2090,27 +2086,26 @@ msgstr ""
 "de instalación como los de actualización.\\n"
 
 #: modules/template.am:302
-#, fuzzy
 msgid ""
 " If correct, press \\\"ENTER\\\", 1 to add keywords and 2 to remove "
 "keywords: "
 msgstr ""
-" Si es correcto, pulse \"ENTER\", 1 para añadir palabras clave y 2 para "
+" Si es correcto, pulse \\\"ENTER\\\", 1 para añadir palabras clave y 2 para "
 "eliminarlas: "
 
 #: modules/template.am:305
-#, fuzzy
 msgid " URL must contain (\\\"x64\\\", \\\"x86_64\\\"... or leave blank): "
-msgstr " La URL debe contener (\"x64\", \"x86_64\"... o dejar en blanco): "
+msgstr ""
+" La URL debe contener (\\\"x64\\\", \\\"x86_64\\\"... o dejar en blanco): "
 
 #: modules/template.am:308 modules/template.am:325
 msgid " Do you wish to check the link for the last time (Y,n)?"
 msgstr " ¿Desea comprobar el enlace por última vez (Y,n)?"
 
 #: modules/template.am:322
-#, fuzzy
 msgid " URL must NOT contain (\\\"txt\\\", \\\"ARM\\\"... or leave blank): "
-msgstr " La URL NO debe contener (\"txt\", \"ARM\"... o dejar en blanco): "
+msgstr ""
+" La URL NO debe contener (\\\"txt\\\", \\\"ARM\\\"... o dejar en blanco): "
 
 #: modules/template.am:347
 msgid ""
@@ -2141,11 +2136,11 @@ msgstr ""
 
 #: modules/template.am:452
 msgid ""
-" PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' '[:"
-"upper:]')\\\":"
+" PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' "
+"'[:upper:]')\\\":"
 msgstr ""
-" POR FAVOR, SELECCIONE UNA PLANTILLA PARA \\\"$(echo \"$arg\" | tr '[:"
-"lower:]' '[:upper:]')\\\":"
+" POR FAVOR, SELECCIONE UNA PLANTILLA PARA \\\"$(echo \"$arg\" | tr "
+"'[:lower:]' '[:upper:]')\\\":"
 
 #: modules/template.am:454
 msgid "  0) APPIMAGE, FROM ANY WEBSITE (BETTER IF FROM GITHUB.COM)"
@@ -2171,8 +2166,8 @@ msgstr " ¿PARA QUÉ TIPO DE PROGRAMA DESEA ESCRIBIR UN SCRIPT? : "
 
 #: modules/template.am:472 modules/template.am:508
 msgid ""
-" ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE: "
-"$(echo -e '\n"
+" ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE: $"
+"(echo -e '\n"
 "\n"
 " - if from github.com, use \"https://github.com/USER/PROJECT\"\n"
 "\n"
@@ -2202,9 +2197,9 @@ msgid " ◆ COPY/PASTE THE URL OF THE ICON HERE $(echo -e '\\n URL: ')"
 msgstr " ◆ COPIE/PEGUE LA URL DEL ICONO AQUÍ $(echo -e '\\n URL: ')"
 
 #: modules/template.am:536
-#, fuzzy
 msgid " ◆ NAME OF THE APP (for the \\\"Name\\\" entry of the .desktop file): "
-msgstr " ◆ NOMBRE DE LA APP (para la entrada \"Name\" del archivo .desktop): "
+msgstr ""
+" ◆ NOMBRE DE LA APP (para la entrada \\\"Name\\\" del archivo .desktop): "
 
 #: modules/template.am:561
 msgid " ◆ NAME OF THE APP: "
@@ -2236,8 +2231,8 @@ msgstr "\\n No se eligió ningún argumento válido: ¡proceso abortado! \\n"
 #~ " ◆ ADD A LINEAR DOWNLOAD URL FOR THE SCRIPT OR LEAVE BLANK $(echo -e "
 #~ "'\\n : ')"
 #~ msgstr ""
-#~ " ◆ AÑADA UNA URL DE DESCARGA LINEAL PARA EL SCRIPT O DÉJELO EN BLANCO "
-#~ "$(echo -e '\\n : ')"
+#~ " ◆ AÑADA UNA URL DE DESCARGA LINEAL PARA EL SCRIPT O DÉJELO EN BLANCO $"
+#~ "(echo -e '\\n : ')"
 
 #~ msgid "✔ $APPMAN_APPSPATH/$arg can be managed again"
 #~ msgstr "✔ $APPMAN_APPSPATH/$arg puede ser gestionado de nuevo"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: am 9.7\n"
 "Report-Msgid-Bugs-To: https://github.com/ivan-hc/AM\n"
 "POT-Creation-Date: 2026-05-11\n"
-"PO-Revision-Date: 2026-02-14 18:51+0100\n"
+"PO-Revision-Date: 2026-05-11 03:43+0200\n"
 "Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/am/am/cs/>\n"
 "Language: cs\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Poedit 3.9\n"
 
 #: APP-MANAGER:155
 msgid "Add a suitable locale code, for example \\\"it\\\" for Italian\\n\\n"
@@ -191,9 +191,8 @@ msgid " Do you wish to continue? (N/y): "
 msgstr " Möchten Sie fortfahren? (N/y): "
 
 #: APP-MANAGER:583 modules/install.am:320 modules/install.am:332
-#, fuzzy
 msgid " - %b, downloaded from https://github.com/ivan-hc/am-utils\\n"
-msgstr "\\n Siehe https://github.com/ivan-hc/AM/commits/%b\\n\\n"
+msgstr ""
 
 #: APP-MANAGER:594
 msgid "Missing command(s): %b%b\\033[0m\\n"
@@ -247,12 +246,12 @@ msgstr ""
 #: APP-MANAGER:687
 msgid ""
 "Please install \\\"%bwget1\\033[0m\\\" and \\\"%bwget1-wget\\033[0m\\\" (use "
-"%b--allowerasing\\033[0m if you have to)\\n\\nSee https://bugzilla.redhat."
-"com/show_bug.cgi?id=2358792\\n\\n"
+"%b--allowerasing\\033[0m if you have to)\\n\\nSee https://"
+"bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
 msgstr ""
 "Bitte installieren Sie \\\"%bwget1\\033[0m\\\" und \\\"%bwget1-wget\\033[0m\\"
-"\" (verwenden Sie ggf. %b--allowerasing\\033[0m)\\n\\nSiehe https://bugzilla."
-"redhat.com/show_bug.cgi?id=2358792\\n\\n"
+"\" (verwenden Sie ggf. %b--allowerasing\\033[0m)\\n\\nSiehe https://"
+"bugzilla.redhat.com/show_bug.cgi?id=2358792\\n\\n"
 
 #: APP-MANAGER:720
 msgid "\\n %b💀WARNING! Detected \\\"%b\\\"\\033[0m\\n\\n"
@@ -371,8 +370,8 @@ msgid ""
 "cause problems.\\nSee https://github.com/ivan-hc/AM/issues/1843\\n"
 msgstr ""
 "Zsh-Completion erfordert das Bearbeiten der Hauptkonfigurationsdatei, kann "
-"aber Probleme verursachen.\\nSiehe https://github.com/ivan-hc/AM/"
-"issues/1843\\n"
+"aber Probleme verursachen.\\nSiehe https://github.com/ivan-hc/AM/issues/"
+"1843\\n"
 
 #: APP-MANAGER:953
 msgid "Want to proceed anyway? (y,N)"
@@ -513,12 +512,11 @@ msgstr ""
 "$unmounted_point"
 
 #: APP-MANAGER:1337
-#, fuzzy
 msgid ""
 " ✔ Removed orphaned launchers produced with the \\\"--launcher\\\" option"
 msgstr ""
-" ✔ Verwaiste Starter entfernt, die mit der Option \"--launcher\" erstellt "
-"wurden"
+" ✔ Verwaiste Starter entfernt, die mit der Option \\\"--launcher\\\" "
+"erstellt wurden"
 
 #: APP-MANAGER:1350
 msgid " ✔ Removed obsolete module named \\\"$(basename -- \"$m\")\\\""
@@ -555,8 +553,8 @@ msgstr "Der aktuell für Programme verwendete lokale Pfad lautet:\\n\\n%b\\n\\n"
 msgid ""
 " Do you want to remove and re-install everything to a new location (y,N)?"
 msgstr ""
-" Möchten Sie alles entfernen und an einem neuen Ort erneut installieren (y,"
-"N)?"
+" Möchten Sie alles entfernen und an einem neuen Ort erneut installieren "
+"(y,N)?"
 
 #: APP-MANAGER:1551
 msgid ""
@@ -1246,8 +1244,8 @@ msgstr ""
 
 #: APP-MANAGER:2273
 msgid ""
-"Description: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\"
-"\" (see \\\"--user\\\")."
+"Description: Switch \\\"AM\\\" back to \\\"AM\\\" from \\\"AppMan Mode\\\" "
+"(see \\\"--user\\\")."
 msgstr ""
 "Beschreibung: Wechselt von \\\"AppMan-Modus\\\" zurück zu \\\"AM\\\" (siehe "
 "\\\"--user\\\")."
@@ -1568,12 +1566,11 @@ msgid " Converting %s to an AppMan-compatible script.\\r"
 msgstr " %s wird in ein AppMan-kompatibles Skript konvertiert.\\r"
 
 #: modules/install.am:35
-#, fuzzy
 msgid ""
 " 💀 ERROR: \\\"--convert\\\" requires a configuration file in ~/.config/"
 "appman"
 msgstr ""
-" 💀 FEHLER: \"--convert\" benötigt eine Konfigurationsdatei in ~/.config/"
+" 💀 FEHLER: \\\"--convert\\\" benötigt eine Konfigurationsdatei in ~/.config/"
 "appman"
 
 #: modules/install.am:44
@@ -1627,7 +1624,7 @@ msgstr ""
 
 #: modules/install.am:73
 msgid "💀 ERROR: \\\"$arg\\\" is not a valid file! \\n\\n"
-msgstr " 💀 FEHLER: \\\"$arg\\\" ist KEIN gültiges Argument! \\n\\n"
+msgstr "💀 FEHLER: \\\"$arg\\\" ist KEIN gültiges Argument! \\n\\n"
 
 #: modules/install.am:74
 msgid "This option is ment to handle installation scripts only! \\n\\n"
@@ -1772,8 +1769,8 @@ msgid ""
 "\"please check the list, run the \\\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" "
 "command.\\n\\n\" \"${Gold}\")"
 msgstr ""
-"💀 FEHLER: \\\"$arg\\\" ist nicht in der \\\"AM\\\"-Datenbank vorhanden, "
-"$(printf \"bitte prüfen Sie die Liste, führen Sie den Befehl \\"
+"💀 FEHLER: \\\"$arg\\\" ist nicht in der \\\"AM\\\"-Datenbank vorhanden, $"
+"(printf \"bitte prüfen Sie die Liste, führen Sie den Befehl \\"
 "\"%b$AMCLIPATH_ORIGIN -l\\033[0m\\\" aus.\\n\\n\" \"${Gold}\")"
 
 #: modules/install.am:698
@@ -2085,8 +2082,8 @@ msgstr " Möchten Sie das alte libfuse2-AppImage entfernen? (Y/n) "
 
 #: modules/management.am:496 modules/management.am:514
 msgid ""
-" \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI -"
-"f\\\" for more."
+" \\\"${RED}$arg\\033[0m\\\" is not a valid \\\"APPNAME\\\", see \\\"$AMCLI "
+"-f\\\" for more."
 msgstr ""
 " \\\"${RED}$arg\\033[0m\\\" ist kein gültiger \\\"APPNAME\\\". Mehr unter \\"
 "\"$AMCLI -f\\\"."
@@ -2223,7 +2220,6 @@ msgstr ""
 "'\\n : ')"
 
 #: modules/template.am:111
-#, fuzzy
 msgid ""
 " USE A ONE-LINE COMMAND TO CHECK THE URL TO THE PROGRAM OR THE VERSION\\n\\n "
 "if the URL is fixed, simply add the \\\"echo\\\" command at the "
@@ -2232,7 +2228,7 @@ msgstr ""
 " VERWENDEN SIE EINEN EINZEILIGEN BEFEHL, UM DIE URL DES PROGRAMMS ODER DIE "
 "VERSION ZU PRÜFEN\n"
 "\n"
-" wenn die URL fest ist, fügen Sie einfach den Befehl \"echo\" am Anfang "
+" wenn die URL fest ist, fügen Sie einfach den Befehl \\\"echo\\\" am Anfang "
 "hinzu\n"
 "\n"
 " :"
@@ -2249,8 +2245,8 @@ msgstr ""
 msgid ""
 " LIST OF CATEGORIES:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) "
 "Development\\n 4) Education\\n 5) Game\\n 6) Graphics\\n 7) Network\\n 8) "
-"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility "
-"(default)\\n "
+"Office\\n 9) Science\\n 10) Settings\\n 11) System\\n 12) Utility (default)"
+"\\n "
 msgstr ""
 " LISTE DER KATEGORIEN:\\n 0) AudioVideo\\n 1) Audio\\n 2) Video\\n 3) "
 "Entwicklung\\n 4) Bildung\\n 5) Spiele\\n 6) Grafik\\n 7) Netzwerk\\n 8) "
@@ -2279,27 +2275,26 @@ msgstr ""
 "Installations- als auch das Update-Skript verweisen.\\n"
 
 #: modules/template.am:302
-#, fuzzy
 msgid ""
 " If correct, press \\\"ENTER\\\", 1 to add keywords and 2 to remove "
 "keywords: "
 msgstr ""
-" Wenn korrekt, \"ENTER\" drücken, 1 zum Hinzufügen und 2 zum Entfernen von "
-"Schlüsselwörtern: "
+" Wenn korrekt, \\\"ENTER\\\" drücken, 1 zum Hinzufügen und 2 zum Entfernen "
+"von Schlüsselwörtern: "
 
 #: modules/template.am:305
-#, fuzzy
 msgid " URL must contain (\\\"x64\\\", \\\"x86_64\\\"... or leave blank): "
-msgstr " URL muss enthalten (\"x64\", \"x86_64\"... oder leer lassen): "
+msgstr ""
+" URL muss enthalten (\\\"x64\\\", \\\"x86_64\\\"... oder leer lassen): "
 
 #: modules/template.am:308 modules/template.am:325
 msgid " Do you wish to check the link for the last time (Y,n)?"
 msgstr " Link ein letztes Mal prüfen (Y,n)?"
 
 #: modules/template.am:322
-#, fuzzy
 msgid " URL must NOT contain (\\\"txt\\\", \\\"ARM\\\"... or leave blank): "
-msgstr " URL darf NICHT enthalten (\"txt\", \"ARM\"... oder leer lassen): "
+msgstr ""
+" URL darf NICHT enthalten (\\\"txt\\\", \\\"ARM\\\"... oder leer lassen): "
 
 #: modules/template.am:347
 msgid ""
@@ -2329,11 +2324,11 @@ msgstr ""
 
 #: modules/template.am:452
 msgid ""
-" PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' '[:"
-"upper:]')\\\":"
+" PLEASE, SELECT A TEMPLATE FOR \\\"$(echo \"$arg\" | tr '[:lower:]' "
+"'[:upper:]')\\\":"
 msgstr ""
-" BITTE WÄHLEN SIE EINE VORLAGE FÜR \\\"$(echo \"$arg\" | tr '[:lower:]' '[:"
-"upper:]')\\\":"
+" BITTE WÄHLEN SIE EINE VORLAGE FÜR \\\"$(echo \"$arg\" | tr '[:lower:]' "
+"'[:upper:]')\\\":"
 
 #: modules/template.am:454
 msgid "  0) APPIMAGE, FROM ANY WEBSITE (BETTER IF FROM GITHUB.COM)"
@@ -2360,8 +2355,8 @@ msgstr " FÜR WELCHE ART PROGRAMM MÖCHTEN SIE EIN SKRIPT SCHREIBEN? : "
 
 #: modules/template.am:472 modules/template.am:508
 msgid ""
-" ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE: "
-"$(echo -e '\n"
+" ◆ ADD THE URL OF THE SITE (BETTER IF IT COME FROM GITHUB), FOR EXAMPLE: $"
+"(echo -e '\n"
 "\n"
 " - if from github.com, use \"https://github.com/USER/PROJECT\"\n"
 "\n"
@@ -2391,9 +2386,8 @@ msgid " ◆ COPY/PASTE THE URL OF THE ICON HERE $(echo -e '\\n URL: ')"
 msgstr " ◆ KOPIEREN/EINFÜGEN DER ICON-URL HIER $(echo -e '\\n URL: ')"
 
 #: modules/template.am:536
-#, fuzzy
 msgid " ◆ NAME OF THE APP (for the \\\"Name\\\" entry of the .desktop file): "
-msgstr " ◆ NAME DER APP (für den Eintrag \"Name\" in der .desktop-Datei): "
+msgstr " ◆ NAME DER APP (für den Eintrag \\\"Name\\\" in der .desktop-Datei): "
 
 #: modules/template.am:561
 msgid " ◆ NAME OF THE APP: "

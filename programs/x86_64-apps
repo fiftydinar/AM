@@ -1,4 +1,3 @@
-◆ dusklight : Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.
 ◆ 0ad : FOSS historical Real Time Strategy, RTS game of ancient warfare.
 ◆ 0ad-prerelease : FOSS historical Real Time Strategy, RTS game of ancient warfare (Pre-release).
 ◆ 12to11 : Unofficial, tool for running Wayland applications on an X server.
@@ -698,6 +697,7 @@
 ◆ dune : A shell by the beach.
 ◆ dunst : Lightweight and customizable notification daemon.
 ◆ duplicate-image-finder : It is an application that can find duplicated images (jpg, png, bitmap, etc) in a collection.
+◆ dusklight : Dusklight brings a classic adventure to PC and mobile platforms with a variety of fixes and improvements.
 ◆ duskplayer : A minimal music player built on electron.
 ◆ dust : A more intuitive version of du in rust.
 ◆ dust3d : 3D modeling software for games, 3D printing, and so on.
